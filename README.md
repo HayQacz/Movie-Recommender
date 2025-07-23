@@ -20,17 +20,17 @@ Our project is meticulously organized for clarity and ease of navigation:
 movie\_recommendation\_system/  
 ```
 ├── data/  
-│   ├── raw/                \# Original, untouched MovieLens 1M dataset files.  
+│   ├── raw/                
 │   │   └── ml-1m/  
-│   └── processed/          \# Cleaned, transformed, and ready-to-use dataframes.  
+│   └── processed/         
 ├── notebooks/  
-│   ├── 01\_data\_exploration\_preprocessing.ipynb  \# Comprehensive notebook for EDA and data preparation.  
-│   ├── 02\_model\_training\_evaluation.ipynb       \# Core notebook for implementing and evaluating ML models.  
-├── src/                    \# (Future) Modular Python scripts for reusable functions and advanced model definitions.  
+│   ├── 01\_data\_exploration\_preprocessing.ipynb 
+│   ├── 02\_model\_training\_evaluation.ipynb       
+├── src/                  
 │   ├── utils.py  
 │   └── models.py  
-├── requirements.txt        \# Lists all essential Python package dependencies.  
-└── README.md               \# The documentation you are currently reading\!
+├── requirements.txt        
+└── README.md             
 ```
 
 ## **🛠️ Technologies Used**
@@ -107,8 +107,8 @@ This foundational notebook guides you through the initial phases of data handlin
 
 This notebook is the heart of our recommendation engine, focusing on model development and assessment:
 
-* [ ] **Popularity-Based Recommender:** Implements a simple baseline model that suggests movies based on overall popularity.  
-* [ ] **Content-Based Recommender (Genre-Based):** Develops a personalized recommender that suggests movies similar in genre to those a user has previously enjoyed, utilizing cosine similarity.  
+* [x] **Popularity-Based Recommender:** Implements a simple baseline model that suggests movies based on overall popularity.  
+* [x] **Content-Based Recommender (Genre-Based):** Develops a personalized recommender that suggests movies similar in genre to those a user has previously enjoyed, utilizing cosine similarity.  
 * [ ] **Collaborative Filtering (Item-Based):** Explores a more advanced approach that recommends movies based on the similarity of user rating patterns between items.  
 * [ ] **Model Evaluation Concepts:** Introduces and discusses key metrics for evaluating recommender systems, including RMSE/MAE for rating prediction and Precision@K/Recall@K for top-N recommendations, accompanied by a basic demonstration of data splitting.
 
