@@ -1,0 +1,21 @@
+﻿ Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+*.ipynb-filter
+
+# Data
+data/raw/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyd
+*.egg-info/
+.pytest_cache/
+
+# IDE specific files
+.idea/
