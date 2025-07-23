@@ -1,4 +1,5 @@
 ﻿pandas
+pandas-stubs
 numpy
 scikit-learn
 matplotlib
