@@ -1,8 +1,8 @@
-﻿# **Movie Recommendation System**
+﻿# **Movie Recommender**
 
 ## **🌟 Overview**
 
-Welcome to the Movie Recommendation System project\! This initiative dives deep into the exciting realm of personalized content discovery. Our goal is to build an intelligent system that suggests movies tailored to individual user preferences, leveraging a variety of machine learning techniques. This repository serves as a comprehensive demonstration of the end-to-end process of building a recommender system, from raw data processing and exploratory analysis to model implementation, evaluation, and future deployment considerations.
+Welcome to the Movie Recommender project\! This initiative dives deep into the exciting realm of personalized content discovery. Our goal is to build an intelligent system that suggests movies tailored to individual user preferences, leveraging a variety of machine learning techniques. This repository serves as a comprehensive demonstration of the end-to-end process of building a recommender system, from raw data processing and exploratory analysis to model implementation, evaluation, and future deployment considerations.
 
 ## **📊 Dataset**
 
@@ -18,6 +18,7 @@ You can download the dataset directly from the [MovieLens website](https://group
 
 Our project is meticulously organized for clarity and ease of navigation:  
 movie\_recommendation\_system/  
+```
 ├── data/  
 │   ├── raw/                \# Original, untouched MovieLens 1M dataset files.  
 │   │   └── ml-1m/  
@@ -30,6 +31,7 @@ movie\_recommendation\_system/
 │   └── models.py  
 ├── requirements.txt        \# Lists all essential Python package dependencies.  
 └── README.md               \# The documentation you are currently reading\!
+```
 
 ## **🛠️ Technologies Used**
 
@@ -48,7 +50,7 @@ Follow these simple steps to get the project up and running on your local machin
 
 ### **Prerequisites**
 
-* Ensure you have **Python 3.x** installed.  
+* Ensure you have **Python 3.11** installed.  
 * **Strongly recommended:** Use a virtual environment to isolate project dependencies.
 
 ### **Installation**
