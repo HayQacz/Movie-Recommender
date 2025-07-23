@@ -59,7 +59,7 @@ Follow these simple steps to get the project up and running on your local machin
    ```
    git clone https://github.com/HayQacz/Movie-Recommender.git
    cd Movie-Recommender
-   
+   ```
 2. **Create and activate a virtual environment:**
     ```
     python -m venv venv
@@ -74,7 +74,7 @@ Follow these simple steps to get the project up and running on your local machin
 3. **Install the required Python packages:**  
     ```
     pip install \-r requirements.txt
-
+    ```
 ### **Data Download**
 
 1. Download the ml-1m.zip file from the official [MovieLens 1M Dataset page](https://grouplens.org/datasets/movielens/1m/).  
